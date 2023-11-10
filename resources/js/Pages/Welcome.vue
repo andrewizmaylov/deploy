@@ -33,7 +33,13 @@ defineProps({
             <div class="mt-16">
 	            <section class="my-6 grid grid-cols-3 gap-6">
 		            <div class="rounded border border-gray-300 bg-white hover:bg-red-200 shadow cursor-pointer place-content-center" v-for="i in 3" :key="i">
-			            <span>Div {{i}}</span>
+			            <span class="text-center h-40">Div {{i}}</span>
+		            </div>
+	            </section>
+	            
+	            <section class="my-6 grid grid-cols-5 gap-6">
+		            <div class="rounded border border-gray-300 bg-white hover:bg-pink-400 shadow cursor-pointer place-content-center" v-for="i in 5" :key="i">
+			            <span class="text-center h-25">Div {{i}}</span>
 		            </div>
 	            </section>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
